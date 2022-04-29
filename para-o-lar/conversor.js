@@ -1,4 +1,3 @@
-// esta é a forma como consegui fazer mais facilmente o exercício
 const transcricaoDna={
     'A':'U',
     'T':'A',
@@ -16,4 +15,3 @@ function conversorRna(str) {
     }
    
     console.log(conversorRna("ACGTGGTCTTAAAG"));
-
