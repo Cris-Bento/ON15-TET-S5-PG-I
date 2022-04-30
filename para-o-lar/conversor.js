@@ -1,17 +1,21 @@
-const transcricaoDna={
-    'A':'U',
-    'T':'A',
-    'C':'G',
-    'G':'C'
-    }
+//Professora Hanna, essa foi a forma que consegui fazer o exercício e
+//conseguir fazer funcionar :)
 
-function conversorRna(str) {
-    let arr=[];
-    str=str.split('');
-    str.forEach((nucleotido)=>{
-    arr.push(transcricaoDna[nucleotido])
-    })
-    return arr;
-    }
+    const transcricaoDna={
+        'A':'U',
+        'T':'A',
+        'C':'G',
+        'G':'C'
+        }     
    
-    console.log(conversorRna("ACGTGGTCTTAAAG"));
+        function conversorRna(str) {
+        let arr=[];
+        str=str.split('');
+        str.forEach((nucleotido)=>{
+        arr.push(transcricaoDna[nucleotido])
+        })
+        return arr;
+        }
+       
+        console.log(conversorRna("ATCG"));
+    
